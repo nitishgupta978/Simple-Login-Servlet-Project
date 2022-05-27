@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<form action=""></form>
+<div id="bg"></div>
+
+<form action="LoginServlet" method="post">
+    <div class="form-field">
+        <input type="text" name="user" placeholder="Enter Username " required/>
+    </div>
+
+    <div class="form-field">
+        <input type="password" name="pwd"  placeholder="Enter Password" required/>                         </div>
+
+    <div class="form-field">
+        <button class="btn" type="submit">Log in</button>
+    </div>
+</form>
+
 </body>
 </html>
