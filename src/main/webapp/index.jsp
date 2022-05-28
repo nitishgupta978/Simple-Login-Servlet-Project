@@ -5,7 +5,7 @@
 <center>
 <h2>WebPage Server Login Id</h2>
 </center>
-<form >
+<form action="LoginSuccess.jsp">
     <fieldset class="border_color">
 
         <legend>
@@ -33,10 +33,11 @@
 
     </fieldset>
 </form>
-<script>
-    function myFunction() {
-        alert("Login SuccessFull !");
-    }
-</script>
+<%--<script>--%>
+<%--    function myFunction() {--%>
+<%--        alert("Login SuccessFull !");--%>
+<%--    }--%>
+<%--</script>--%>
 </body>
 </html>
+
