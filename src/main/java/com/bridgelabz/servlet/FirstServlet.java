@@ -13,7 +13,7 @@ public class FirstServlet extends HttpServlet {
         response.setContentType("text/html");//setting content to text or html
         PrintWriter out = response.getWriter();
         //printing on web server
-        out.println("<h3>Hello World Karthik Benki  Trying again!</h3>");
+        out.println("<h3>Hello World John Wick Trying again!</h3>");
         out.close();
     }
 }
