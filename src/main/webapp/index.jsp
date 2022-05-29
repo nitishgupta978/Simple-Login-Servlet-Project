@@ -5,7 +5,8 @@
 <center>
 <h2>WebPage Server Login Id</h2>
 </center>
-<form action="LoginSuccess.jsp">
+<%--<form action="LoginSuccess.jsp">--%>
+    <form action="LoginServlet" method="post">
     <fieldset class="border_color">
 
         <legend>
@@ -14,12 +15,12 @@
 
         <div class="container">
             <label ><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="text" placeholder="Enter Username" name="uname" required/>
             <br/>
             <br/>
 
             <label ><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" required/>
             <br/>
             <br/>
 
